@@ -1,5 +1,7 @@
 # COVID-19 Forecast Script
 
+Use Jupyter Notebook to run the file
+
 This script fetches COVID-19 data for South Africa from Worldometers, performs an ARIMA forecast, and generates reports and visualizations. Here are the external libraries and packages used in this script:
 
 ## External Libraries and Packages
@@ -18,3 +20,17 @@ This script fetches COVID-19 data for South Africa from Worldometers, performs a
 3. Output files include `covid_cases_forecast.csv` (combined data), `covid_cases_forecast.png` (forecast plot), and `improvement_suggestions.txt` (improvement suggestions).
 
 Feel free to reach out if you have any questions or need further assistance.
+
+# HOW TO RUN API
+
+### windows
+
+- python3 PandemicForecastBE.py
+
+### linux or macos
+
+- python3 PandemicForecastBE.py
+
+- on success, there is a link showing in the console/terminal/cmd
+
+- double click on the index.html file, while will invoke the API routines to access the API data
